@@ -1,0 +1,107 @@
+/*
+
+Colors
+
+#583E7F
+#DEC9FF
+#B07CFF
+#6F647F
+#8D63CC
+*/
+
+/*pricing page*/
+
+a:link {
+  color: #002859;
+}
+a:visited {
+  color: #002859;
+}
+a:hover {
+  color: #0edbb0;
+}
+a:active {
+  color: #f8f6f7;
+}
+
+#header {
+  font-size:30px; 
+  position:fixed; 
+  top:0px; left:0px; 
+  background-color: #f8f6f7; 
+  width:100%;
+}
+
+#logo {
+  left:20px;
+}
+
+#featuresLink {
+  position:fixed;
+  top:11px; right:50px;
+  width: auto;
+  background-color: #0edbb0;
+  border-radius: 10px;
+}
+
+#pricingLink {
+  position:fixed;
+  top:11px; right:200px;
+  width: auto;
+  background-color: #0edbb0;
+  border-radius: 10px;
+}
+
+#contactLink {
+  position:fixed;
+  top:11px; right:340px;
+  width: auto;
+  background-color: #0edbb0;
+  border-radius: 10px;
+}
+
+#subscription { 
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  color: #f8f6f7;
+  background-color: #002859;
+}
+
+#caption {
+  padding-top: 100px;
+  padding-bottom: 10px; 
+  font-size: 120px; 
+  text-align: center;
+}
+
+#subOptions{
+  font-size: 70px;
+}
+
+.horizontalSpacing {
+  width: 250px;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.firstColumn {
+  text-align: left;
+  font-size: 20px;
+}
+
+.redtext{
+  color: red;
+}
+
+.greentext {
+  color: lime;
+}
+
+.yellowtext {
+  color: gold;
+}

@@ -6,59 +6,61 @@
         <meta name="author" content="Yannick Vaillancourt">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Used to rescale pages on different devices, like mobile-->
         <title>Ramble</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <header style="font-size:30px; position:fixed; top:0px; left:0px; background-color: rgb(248, 246, 247); width:100%;">
+    <header id="header">
         <nav>
-            <a style="left:20px;" href="Home Page.html">
+            <a id="logo" href="Home Page.html">
                 <img height="60" src="Images/logo.png" alt="logo picture"/>
             </a>
-            <a href="features.html">
-                <span style="size: 20px; position:fixed; top:11px; right:50px;">Features</span></a>
+            <a href="fea.html">
+                <span id="featuresLink">Features</span></a>
             <a href="pricing.html">
-                <span style="size: 20px; position:fixed; top:11px; right:200px;">Pricing</span></a>
-                <a href="contact.html">
-                    <span style="size: 20px; position:fixed; top:11px; right:350px;">Contact Us</span></a>
+                <span id="pricingLink">Pricing</span></a>
+            <a href="contactpage.html">
+                <span id="contactLink">Contact Us</span></a>
             </header>
         </nav>
     </header>
     <body style="background-color: rgb(248, 246, 247);">
-        <table id="subscription" style="border: 1px solid black; margin-left: auto; margin-right: auto; text-align: left;">
+        <div id="caption">Subscription plans</div>
+        <table id="subscription">
             <thead>
-                <caption style="padding-top: 100px; font-size: 90px; text-align: center;">Subscription plans</caption>
                 <br>
-                <tr> 
+                <tr id="subOptions"> 
                     <th></th>
-                    <th>Basic</th>
-                    <th>Plus</th>
-                    <th>Premium</th>
+                    <th class="horizontalSpacing">Basic</th>
+                    <th class="horizontalSpacing">Plus</th>
+                    <th class="horizontalSpacing">Premium</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Price</td>
+                <tr class="verticalSpacing">
+                    <td class="firstColumn">Price</td>
                     <td>Free</td>
                     <td>$5/month</td>
                     <td>$8/month</td>
                 </tr>
-                <tr>
-                    <td>Ad-free</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>Yes</td>
+                <tr class="verticalSpacing">
+                    <td class="firstColumn">Ad-free</td>
+                    <td class="redtext">No</td>
+                    <td class="greentext">Yes</td>
+                    <td class="greentext">Yes</td>
                 </tr>
-                <tr>
-                    <td>Offline access</td>
-                    <td>None</td>
-                    <td>Downloads only</td>
-                    <td>All</td>
+                <tr class="verticalSpacing">
+                    <td class="firstColumn">Offline access</td>
+                    <td class="redtext">None</td>
+                    <td class="yellowtext">Downloads only</td>
+                    <td class="greentext">All</td>
                 </tr>
-                <tr>
-                    <td>Background play</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>Yes</td>
+                <tr class="verticalSpacing">
+                    <td class="firstColumn" class="verticalSpacing">Background play</td>
+                    <td class="redtext">No</td>
+                    <td class="redtext">No</td>
+                    <td class="greentext">Yes</td>
                 </tr>
             </tbody>
         </table>
     </body>
+    <script src="main.js"></script>
 </html>
