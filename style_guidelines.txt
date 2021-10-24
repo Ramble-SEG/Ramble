@@ -2,6 +2,8 @@ Overall look and feel:
 
 As a whole, Ramble should be simple, intuitive and welcoming for the users, with a priority on easy-to-understand navigation and options that stand out. Both the app and the website will have a relaxing and layed-back feel to them.  
 
+DoneByIchrak{
 Iconography:
 
 The icons will mainly be plain not to clash with the app's aesthetic and the colors will stand out from the background with a higher color contrast all while adhering with the theme. 
+}
