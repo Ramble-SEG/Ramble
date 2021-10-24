@@ -13,15 +13,19 @@ Colors
 
 a:link {
   color: #002859;
+  text-decoration: none;
 }
 a:visited {
   color: #002859;
+  text-decoration: none;
 }
 a:hover {
   color: #0edbb0;
+  text-decoration: none;
 }
 a:active {
   color: #f8f6f7;
+  text-decoration: none;
 }
 
 #header {
@@ -40,6 +44,8 @@ a:active {
   position:fixed;
   top:11px; right:50px;
   width: auto;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
   background-color: #0edbb0;
   border-radius: 10px;
 }
@@ -48,14 +54,18 @@ a:active {
   position:fixed;
   top:11px; right:200px;
   width: auto;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
   background-color: #0edbb0;
   border-radius: 10px;
 }
 
 #contactLink {
   position:fixed;
-  top:11px; right:340px;
+  top:11px; right:335px;
   width: auto;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
   background-color: #0edbb0;
   border-radius: 10px;
 }
