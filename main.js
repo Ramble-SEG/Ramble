@@ -32,6 +32,13 @@ contactLink.addEventListener("mouseover", function(){
 contactLink.addEventListener("mouseout", function(){
     this.style.backgroundColor = "#0edbb0";
 });
+var name = document.getElementById("name");
+document.getElementById("div1").onmouseover = function() {        
+    document.getElementById("div1").style.fontSize  = "125%"
+};
 
+document.getElementById("div1").onmouseout = function() {        
+    document.getElementById("div1").style.fontSize  = "100%";
+};
 
 
