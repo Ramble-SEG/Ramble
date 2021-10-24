@@ -9,9 +9,6 @@ Colors
 #8D63CC
 */
 
-body {
-  font: comfo;
-}
 
 /*pricing page*/
 
@@ -56,7 +53,7 @@ a:active {
 
 #pricingLink {
   position:fixed;
-  top:11px; right:200px;
+  top:11px; right:220px;
   width: auto;
   padding-left: 0.5%;
   padding-right: 0.5%;
@@ -66,7 +63,7 @@ a:active {
 
 #contactLink {
   position:fixed;
-  top:11px; right:335px;
+  top:11px; right:361px;
   width: auto;
   padding-left: 0.5%;
   padding-right: 0.5%;
