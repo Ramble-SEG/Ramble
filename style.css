@@ -111,11 +111,11 @@ a:active {
   float: right;
   text-align: center;
   border: 1px solid black;
-  margin-top=20px;
+  margin-top: 20px;
   background-color: #002859;
   width:600px;
   height:500px;
-  margin:10px">
+  margin:10px"
 }
 
 .horizontalSpacing {
