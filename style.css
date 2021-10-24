@@ -9,6 +9,10 @@ Colors
 #8D63CC
 */
 
+body {
+  font: comfo;
+}
+
 /*pricing page*/
 
 a:link {
