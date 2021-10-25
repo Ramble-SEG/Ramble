@@ -10,4 +10,4 @@ Anna Brimacombe-Tanner - Username: wo874 -Student #: 300245481
 
 
 Description:
-Ramble is a social media platform for mobile that will allow users to upload and share podcasts. Furthermore, it will include an in-depth tagging system that will allow users to more easily filter search results for podcasts that include or don't include specified tags.
+Ramble is a social media platform for mobile that will allow users to upload and share podcasts. 
