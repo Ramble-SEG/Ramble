@@ -1,17 +1,17 @@
 /*
 
 Colors
-
-#583E7F
-#DEC9FF
-#B07CFF
-#6F647F
-#8D63CC
+#002859
+#0edbb0
+#f8f6f7
+gold
+red
+lime
 */
 
 
-/*pricing page*/
 
+/*global*/
 a:link {
   color: #002859;
   text-decoration: none;
@@ -71,6 +71,11 @@ a:active {
   border-radius: 10px;
 }
 
+body{
+    font-family: 'Comfortaa'
+}
+
+/*pricing page*/
 #subscription { 
   margin-left: auto; 
   margin-right: auto; 
@@ -92,6 +97,32 @@ a:active {
   font-size: 70px;
 }
 
+th, td {
+  padding: 20px;
+}
+
+.horizontalSpacing {
+  width: 250px;
+}
+
+.firstColumn {
+  text-align: left;
+  font-size: 20px;
+}
+
+.redtext{
+  color: red;
+}
+
+.greentext {
+  color: lime;
+}
+
+.yellowtext {
+  color: gold;
+}
+
+/*contactpage*/
 #submit{
   color:#f8f6f7;
   text-align: center;
@@ -115,30 +146,7 @@ a:active {
   margin:10px"
 }
 
-.horizontalSpacing {
-  width: 250px;
-}
 
-th, td {
-  padding: 20px;
-}
 
-.firstColumn {
-  text-align: left;
-  font-size: 20px;
-}
 
-.redtext{
-  color: red;
-}
 
-.greentext {
-  color: lime;
-}
-
-.yellowtext {
-  color: gold;
-}
-body{
-    font-family: 'Comfortaa'
-}
